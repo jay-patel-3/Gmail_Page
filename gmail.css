@@ -27,8 +27,26 @@
     margin-top: -70px;
 }
 
+/*Globe icon beside the select element*/
+.globe
+{
+    margin-left: 1240px;
+    margin-top: -27px;
+}
 
 
+<<<<<<< Updated upstream
+=======
+/*select element for country*/
+.country
+{
+    width: 200px;
+    margin-left: 1270px;
+    margin-top: -30px;
+}
+
+
+>>>>>>> Stashed changes
 
 
 /*IDs*/
@@ -36,7 +54,8 @@
 {
     margin-left: 525px;
     margin-top: 50px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.664);
 }
 #logo
 {
@@ -130,21 +149,21 @@ input[name="confirm_password"]
 }
 input[name="month"]
 {
-    width: 195px;
+    width: 160px;
     position: relative;
     padding-right: 76px;
 }
 input[name="age"]
 {
-    width: 13px;
-    right: 245px;
+    width: 100px;
+    right: 277px;
     position: relative;
     padding-right: 76px;
 }
 input[name="year"]
 {
-    width: 113px;
-    right: 394px;
+    width: 125px;
+    right: 405px;
     position: relative;
     padding-right: 76px;
 }
@@ -172,16 +191,6 @@ input[name="location"]
     width: 410px;
     position: static;
 }
-
-
-/*select element for country*/
-.country
-{
-    width: 200px;
-    margin-left: 1000px;
-    position: static;
-}
-
 
 
 
@@ -222,3 +231,36 @@ label::after {
 
 
 
+/*Capcha*/
+div[name="capcha_container"]
+{
+    background-color: white;
+    width: 400px;
+}
+div[name="capcha_icons"]
+{
+    word-spacing: 10px;
+}
+.capcha_verification_pics
+{
+    background-color: white;
+}
+#capcha1
+{
+    margin-left: 15px;
+    width: 160px;
+    height: 75px;
+}
+#capcha2
+{
+    width: 175px;
+    height: 50px;
+}
+#capcha_number
+{
+    margin-top: 5px;
+}
+b
+{
+    font-size: 14px;
+}
